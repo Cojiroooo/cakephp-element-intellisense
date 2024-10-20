@@ -1,6 +1,6 @@
 {
-  "name": "cakephp-intellisense",
-  "displayName": "CakePHP intellisense",
+  "name": "cakephp-element-intellisense",
+  "displayName": "CakePHP Element Intellisense",
   "description": "Support developing cakePHP",
   "version": "0.0.1",
   "engines": {
@@ -9,7 +9,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+        "onLanguage:php"
+    ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
