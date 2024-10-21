@@ -3,15 +3,20 @@
   "displayName": "CakePHP Element Intellisense",
   "description": "Support developing cakePHP",
   "version": "1.0.0",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.94.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cojiroooo/cakephp-element-intellisense.git"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-        "onLanguage:php"
-    ],
+    "onLanguage:php"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
