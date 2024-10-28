@@ -2,6 +2,7 @@
   "name": "cakephp-element-intellisense",
   "displayName": "CakePHP Element Intellisense",
   "description": "Support developing cakePHP",
+  "publisher": "Cojiroooo",
   "version": "1.0.0",
   "license": "MIT",
   "engines": {
